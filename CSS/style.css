@@ -416,6 +416,7 @@ nav .fa {
 }
 .contact-col button {
   cursor: pointer;
+  margin-top: 0px;
 }
 .contact-col .red-btn {
   border: 1px solid #f44336;
