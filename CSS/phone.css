@@ -1,18 +1,30 @@
 /* @media screen and (max-width: 720px) {
 
-} */
-/* For Header Section  */
 
 /*---------------Navigation For Phone-------------*/
-#navigation {
+/* #navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+} */
+.navbar ul li {
+  display: block;
 }
-#navigation .navbar li {
-  padding: 0px 4px;
-  position: sticky;
+.navbar {
+  position: fixed;
+  background: #f44336;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+  right: -200px;
+  text-align: left;
+  z-index: 2;
+  transition: 1s;
+}
+.navbar ul {
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
 /* ---------- Course ----------- */
@@ -53,6 +65,29 @@
   padding: 0;
 }
 
+/* ---------- Blog Content ---------------- */
+.sub-header #certificate {
+  font-size: 24px;
+}
+.left-col p {
+  font-size: 15px;
+}
+.blog-content {
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+.blog-content h2 {
+  font-size: 21px;
+}
+.right-col {
+  width: 100%;
+}
+/* ---------- Contact Section ------------ */
+.contact-col button {
+  margin-top: 5px;
+}
 /*--------------Font Awesome--------------*/
 nav .fa {
   display: block;
@@ -60,6 +95,9 @@ nav .fa {
   color: white;
   margin: 10px;
   font-size: 20px;
+}
+nav .fa .fa-bars {
+  position: sticky;
 }
 
 /*---------------Utility Class------------------*/
@@ -70,4 +108,15 @@ nav .fa {
 .p-primary {
   font-size: 9px;
   color: white;
+}
+
+/* -------- About Section --------------- */
+.about-us .about-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-us .about-col a {
+  margin-top: 0px;
 }

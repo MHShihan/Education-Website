@@ -27,36 +27,27 @@
     />
   </head>
   <body>
-    <main id="header">
-      <nav id="navigation">
-        <a href="index.html"
-          ><img src="../eduford_img/logo.png" alt="Logo"
-        /></a>
-        <div class="navbar" id="nav-links">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="course.html">COURSE</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
-      <!--------------- Text-Box Section ------------>
-      <section id="TextBox-section">
-        <div class="text-box">
-          <h1 class="h-primary center">World's Biggest University</h1>
-          <p class="p-primary center">
-            Making website is now one of the easiest thing in the world. You
-            just need to learn HTML,<br />
-            CSS and Javascript and you are good to go.
-          </p>
-          <a href="#" class="btn">Visit Us To Know More</a>
-        </div>
+    <main>
+      <section class="sub-header">
+        <nav id="navigation">
+          <a href="index.html"
+            ><img src="../eduford_img/logo.png" alt="Logo"
+          /></a>
+          <div class="navbar" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="course.html">COURSE</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
       </section>
-      <!---------------- Course Section --------------->
+
       <section id="course">
         <h1 class="h-primary center">Course We Offer</h1>
         <p class="p-primary center">
@@ -89,33 +80,7 @@
           </div>
         </div>
       </section>
-      <!---------------- Campus Section --------------->
-      <section class="campus">
-        <h1 class="h1-primary center">Our Global Campus</h1>
-        <p class="p1-primary center">
-          Lorem, ipsum dolor elit. Cumque magnam fugit ullam!
-        </p>
-        <div class="row">
-          <div class="campus-col">
-            <img src="../eduford_img/london.png" alt="image" />
-            <div class="layer">
-              <h3 class="center">LONDON</h3>
-            </div>
-          </div>
-          <div class="campus-col">
-            <img src="../eduford_img/newyork.png" alt="image" />
-            <div class="layer">
-              <h3 class="center">NEW YORK</h3>
-            </div>
-          </div>
-          <div class="campus-col">
-            <img src="../eduford_img/washington.png" alt="image" />
-            <div class="layer">
-              <h3 class="center">WASHINGTON</h3>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <!---------------- Facilities Section --------------->
       <section class="facilities container">
         <h1 class="h1-primary center">Our facilities</h1>
@@ -149,62 +114,6 @@
           </div>
         </div>
       </section>
-      <!---------------- Testimonial Section --------------->
-      <section class="testimonial container">
-        <h1 class="h1-primary center">What Our Student Say</h1>
-        <p class="p1-primary">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis in unde
-          repellat.
-        </p>
-        <div class="row">
-          <div class="testimonial-col">
-            <img src="../eduford_img/user1.jpg" alt="" />
-            <div id="p-and-name">
-              <p class="p1-primary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                sit eligendi, iure qui nesciunt tempore, exercitationem quasi
-                deleniti et architecto eum explicabo ipsum assumenda totam.
-                Doloribus unde culpa at ipsa. Minus, consequatur ipsa. Fugit.
-              </p>
-              <h3>Christine Berkley</h3>
-              <div class="star">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-col">
-            <img src="../eduford_img/user2.jpg" alt="" />
-            <div id="p-and-name">
-              <p class="p1-primary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                sit eligendi, iure qui nesciunt tempore, exercitationem quasi
-                deleniti et architecto eum explicabo ipsum assumenda totam.
-                Doloribus unde culpa at ipsa. Minus, consequatur ipsa. Fugit.
-              </p>
-              <h3>David Bayer</h3>
-              <div class="star">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--------- Call To Action --------->
-      <section class="cta">
-        <h1 class="h1-primary center">
-          Enroll For Our Various Courses <br />
-          Anywhere From The World
-        </h1>
-        <a href="" class="btn">Contact Us</a>
-      </section>
 
       <!-------- Footer Section ------->
       <section class="footer footer-section">
@@ -230,6 +139,7 @@
         <a href="https://www.linkedin.com/in/mh-shihan-585850177/">MH Shihan</a>
       </footer>
     </main>
+
     <!-- ----------- Javascript For Toggle Menu ------------->
     <script>
       var navLinks = document.getElementById("nav-links");
